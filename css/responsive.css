@@ -1,0 +1,1643 @@
+/*
+====================================
+Large Screen - Others
+====================================
+*/
+@media screen and (min-width: 1400px) and (max-width: 1699px) {
+    .join-us-title h1:first-child {
+        font-size: 150.279px;
+    }
+    .join-us-title h1:last-child {
+        font-size: 167.15px;
+    }
+    .what-title::after {
+        left: 69%;
+    }
+
+
+
+
+
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    .navbar-brand img {
+        width: 200px;
+    }
+    .nav-item {
+        margin: 0px 10.195px;
+    }
+    .nav-item a {
+        font-size: 20px;
+    }
+    .hero-area {
+        padding-top: 20px;
+    }
+    .hero-wrpper-title h1 {
+        font-size: 36.248px;
+        margin-bottom: 15px;
+    }
+    .hero-wrpper-desc p {
+        font-size: 18px;
+    }
+    .contribution-wepper h3 {
+        font-size: 55px;
+    }
+    .volunteer-wrpper h3, .volunteer-wrpper h5 {
+        padding-left: 25px;
+    }
+    .volunteer-wrpper h3 {
+        font-size: 38.571px;
+    }
+    .vision-desc p::before {
+        left: 0px;
+    }
+    .vision-desc p::after {
+        right: 30%;
+    }
+    .join-us-title h1:first-child {
+        font-size: 110.279px;
+    }
+    .join-us-title h1:last-child {
+        font-size: 125.15px;
+    }
+    .footer-desc p {
+        font-size: 23px;
+    }
+    .person-info li span, .person-info li span a {
+        font-size: 20px;
+    }
+    .about-us-area {
+        padding: 80px 0;
+    }
+    .about-title h2 {
+        font-size: 70px;
+    }
+    .about-sub-titlw h3 {
+        font-size: 30px;
+    }
+    .about-desc-wrpper p {
+        font-size: 23px;
+        margin-top: 25px;
+    }
+    .single-vission-mission {
+        margin-top: 50px;
+    }
+    .vission-mission-cntn h2 {
+        font-size: 35px;
+    }
+    .vission-mission-cntn p {
+        font-size: 20px;
+    }
+    .vission-mission-btn a {
+        max-width: 410px;
+        font-size: 40.037px;
+    }
+    .gift-desc p::before {
+        left: 0px;
+    }
+    .gift-desc p::after {
+        right: 26%;
+    }
+    .single-line span {
+        font-size: 21px;
+    }
+    .bank-details-area {
+        padding: 47px 23px 73px 23px;
+    }
+    .what-title {
+        padding-left: calc(100% - 1140px / 2);
+    }
+    .what-title::after {
+        left: 80%;
+    }
+    .we-do-subtilte h3 {
+        font-size: 23px;
+        padding-left: calc(100% - 1140px / 2);
+    }
+    .post-image {
+        height: 314px;
+    }
+    .post-content h3 {
+        font-size: 35px;
+    }
+    .post-content p {
+        font-size: 25px;
+    }
+    .single-post:nth-child(2) .post-image::before {
+        left: -177%;
+        top: -60%;
+        z-index: -6666;
+        width: 800px;
+        height: 800px;
+    }
+
+    /* our-work */
+    .rt-ourwork-area .rt-ourwork-cnt h2 {
+        font-size: 64px;
+    }
+    .rt-ourwork-area .rt-ourwork-cnt h4 {
+        max-width: 580px;
+        font-size: 42px;
+    }
+    .rt-work-section .rt-work-area-box {
+        height: 520px;
+    }
+    .rt-work-section .rt-work-content {
+        margin-top: -610px;
+    }
+    .rt-work-section .rt-work-area-cnt h3 {
+        font-size: 42px;
+    }
+    .rt-work-section .rt-work-area-text {
+        padding-top: 35px;
+    }
+    .rt-work-section .rt-work-area-text h4 {
+        margin-right: 22px;
+        width: 75px;
+        height: 75px;
+        line-height: 75px;
+        font-size: 42px;
+    }
+    .rt-work-section .rt-work-area-text p {
+        font-size: 30px;
+    }
+    .rt-work-section .rt-work-area-text h6 {
+        padding-top: 25px;
+        font-size: 30px;
+    }
+    .rt-work-section {
+        padding-bottom: 250px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .navbar-brand img {
+        width: 180px;
+    }
+    .nav-item {
+        margin: 0 10.195px;
+    }
+    .nav-item a {
+        font-size: 17px;
+    }
+    .navbar-brand img {
+        width: 150px;
+    }
+    .hero-area {
+        padding-top: 30px;
+    }
+    .hero-wrpper-title h1 {
+        font-size: 35.248px;
+        margin-bottom: 10px;
+    }
+    .hero-wrpper-desc p {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    .fl-end {
+        align-self: flex-end !important;
+    }
+    .contribution-wepper h5, .volunteer-wrpper h5 {
+        font-size: 19.072px;
+    }
+    .contribution-wepper h3 {
+        font-size: 50px;
+    }
+    .volunteer-wrpper h3, .volunteer-wrpper h5 {
+        padding-left: 30px;
+    }
+    .volunteer-wrpper h3 {
+        font-size: 29.571px;
+    }
+    .part-change-area {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .part-content h3 {
+        font-size: 40.076px;
+    }
+    .part-content p {
+        font-size: 25.258px;
+    }
+    .part-img img {
+        width: 200px;
+    }
+    .single-part {
+        gap: 60px;
+    }
+    .future-vision-area {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+    .vision-title h2 {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+    .vision-desc p {
+        font-size: 28px;
+    }
+    .vision-desc p::before {
+        left: 10px;
+    }
+    .vision-desc p::after {
+        right: 30%;
+    }
+    .donate-btn a {
+        width: 440px;
+        font-size: 42.037px;
+        margin-top: 30.48px;
+    }
+    .join-us-title h1:first-child {
+        font-size: 90.279px;
+    }
+    .join-us-title h1:last-child {
+        font-size: 105.15px;
+    }
+    .contact-area {
+        padding: 50px 0;
+    }
+    .contact-title h2 {
+        font-size: 50px;
+    }
+    .contact-title h5 {
+        font-size: 23px;
+    }
+    .contact-form {
+        padding: 0 120px;
+    }
+    .single-input-field label {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    .single-input-field input, .single-input-field textarea {
+        padding: 20px 15px;
+    }
+    .single-input-field {
+        margin-bottom: 25px;
+    }
+    .single-input-field input[type="submit"] {
+        padding: 20px 53px;
+        font-size: 40px;
+        width: 300px;
+    }
+    .footer-desc p {
+        font-size: 20px;
+    }
+    .person-info li {
+        gap: 10px;
+    }
+    .person-info li span, .person-info li span a {
+        font-size: 19px;
+    }
+    .about-us-area {
+        padding: 50px 0;
+    }
+    .about-title h2 {
+        font-size: 60px;
+    }
+    .about-sub-titlw h3 {
+        font-size: 25px;
+    }
+    .about-desc-wrpper p {
+        font-size: 20px;
+        margin-top: 16px;
+    }
+    .vission-mission-area {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+    .vission-mission-title h2 {
+        font-size: 45px;
+    }
+    .single-vission-mission {
+        margin-top: 30px;
+    }
+    .vission-mission-cntn h2 {
+        font-size: 30px;
+    }
+    .vission-mission-cntn p {
+        font-size: 18px;
+    }
+    .vission-mission-btn a {
+        max-width: 390px;
+        font-size: 35.037px;
+    }
+    .donate-area-wrpper {
+        padding: 60px 0;
+    }
+    .donation-ammonut-wrpper h2 {
+        font-size: 40px;
+    }    
+    .donation-sub-title h3 {
+        font-size: 23px;
+    }
+    .ammount-wrpper img {
+        margin-top: 2px;
+    }
+    .gift-desc p::before {
+        left: 6px;
+    }
+    .vision-desc p::before, .vision-desc p::after, .gift-desc p::before, .gift-desc p::after {
+        width: 25px;
+        height: 25px;
+    }
+    .gift-desc p::after {
+        right: 28%;
+        bottom: 7px;
+    }
+    .gift-desc p {
+        font-size: 28px;
+    }
+    .bank-details-title h2 {
+        font-size: 30px;
+    }
+    .single-line span {
+        font-size: 16px;
+    }
+    .single-line img {
+        padding-bottom: 6px;
+    }
+    .single-line img {
+        width: 36%;
+    }
+    .what-we-do-area {
+        padding: 50px 0;
+    }
+    .what-title {
+        padding-left: calc(100% - 960px / 2);
+    }
+    .what-title h2 {
+        font-size: 45px;
+    }
+    .what-title::after {
+        top: 26px;
+        left: 71%;
+    }
+    .we-do-subtilte h3 {
+        font-size: 20px;
+        padding-left: calc(100% - 960px / 2);
+    }
+    .post-image {
+        height: 265px;
+    }
+    .post-content h3 {
+        font-size: 30px;
+    }
+    .post-content p {
+        font-size: 20px;
+    }
+    .single-post:nth-child(2) .post-image::before {
+        width: 526px;
+        height: 658px;
+        left: -131%;
+        z-index: -2222222;
+        top: -165px;
+    }
+    .imgages-title h1  {
+        font-size: 50px;
+    }
+    .videos-title h1 {
+        font-size: 50px;
+    }
+
+    .upcoming-title h1 {
+        font-size: 50px;
+    }
+
+     .aim-items p {
+        font-size: 18px;
+    }
+    .aim-items h1 {
+        font-size: 30px;
+    }
+    .aim-items h1 {
+        font-size: 50px;
+    }
+    .edu-items h1 {
+        font-size: 50px;
+    }
+
+    /* our-work */
+    .rt-ourwork-area {
+        padding-top: 110px;
+        padding-bottom: 155px;
+    }
+    .rt-ourwork-area .rt-ourwork-cnt h2 {
+        font-size: 48px;
+    }
+    .rt-ourwork-area .rt-ourwork-cnt h4 {
+        max-width: 480px;
+        font-size: 32px;
+    }
+    .rt-work-section .rt-work-area-box {
+        height: 455px;
+    }
+    .rt-work-section .rt-work-content {
+        margin-top: -500px;
+    }
+    .rt-work-section .rt-work-area-cnt h3 {
+        font-size: 36px;
+    }
+    .rt-work-section .rt-work-area-text {
+        padding-top: 28px;
+    }
+    .rt-work-section .rt-work-area-text h4 {
+        margin-right: 18px;
+        width: 65px;
+        height: 65px;
+        line-height: 65px;
+        font-size: 38px;
+    }
+    .rt-work-section .rt-work-area-text p {
+        font-size: 27px;
+    }
+    .rt-work-section .rt-work-area-text h6 {
+        padding-top: 20px;
+        font-size: 28px;
+    }
+    .rt-work-section {
+        padding-bottom: 210px;
+    }
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand img {
+        width: 150px;
+    }
+    .navbar-light .navbar-toggler-icon {
+        transform: scale(1.5);
+    }
+    .hero-area {
+        padding-top: 30px;
+    }
+    .hero-person {
+        text-align: center;
+    }
+    .hero-person img {
+        max-width: 500px;
+    }
+    .contribution-wepper,
+    .volunteer-wrpper {
+        padding-top: 35px;
+        padding-bottom: 30px;
+        padding-left: 0;
+    }
+    .volunteer-wrpper {
+        padding-right: 0;
+        text-align: center;
+    }
+    .part-change-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .part-change-title h2 {
+        font-size: 38px;
+    }
+    .part-change-title h5 {
+        font-size: 25px;
+    }
+    .part-content h3 {
+        font-size: 35.076px;
+    }
+    .part-content p {
+        font-size: 21.258px;
+    }
+    .single-part {
+        gap: 30px;
+    }
+    .part-img img {
+        width: 180px;
+    }
+    .future-vision-area {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .vision-title h2 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .vision-desc p,
+    .gift-desc p {
+        font-size: 20px;
+    }
+    .vision-desc p::before, .vision-desc p::after,
+    .gift-desc p::before, .gift-desc p::after {
+        width: 22px;
+        height: 22px;
+    }
+    .vision-desc p::before {
+        left: -23px;
+    }
+    .vision-desc p::after {
+        right: -13px;
+    }
+    .donate-btn a {
+        width: 340px;
+        font-size: 32.037px;
+        margin-top: 22.48px;
+        padding: 10px 0;
+    }
+    .join-us-title h1:first-child {
+        font-size: 70.279px;
+    }
+    .join-us-title h1:last-child {
+        font-size: 80.15px;
+    }
+    .contact-area {
+        padding: 50px 0;
+    }
+    .contact-title h2 {
+        font-size: 40px;
+    }
+    .contact-title h5 {
+        font-size: 20px;
+    }
+    .contact-form {
+        padding: 0 0;
+    }
+    .single-input-field label {
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+    .single-input-field input, .single-input-field textarea {
+        padding: 15px 15px;
+    }
+    .single-input-field:first-child {
+        margin-top: 25px;
+    }
+    .single-input-field {
+        margin-bottom: 25px;
+    }
+    .single-input-field input[type="submit"] {
+        padding: 14px 32px;
+        font-size: 30px;
+        width: 235px;
+        border-radius: 12px;
+    }
+    .single-input-field:nth-child(4) {
+        margin-bottom: 40px;
+    }
+    .footer-desc p {
+        font-size: 22px;
+    }
+    .person-info li span, .person-info li span a {
+        font-size: 23px;
+    }
+    .person-info {
+        margin-top: 30px;
+    }
+    .person-info li img {
+        width: 34px;
+    }
+    .person-info li {
+        gap: 10px;
+    }
+    .about-us-area {
+        padding: 40px 0;
+    }
+    .about-title h2 {
+        font-size: 50px;
+    }
+    .about-sub-titlw h3 {
+        font-size: 23px;
+    }
+    .about-desc-wrpper p {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .vission-mission-area {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .vission-mission-title h2 {
+        font-size: 35px;
+    }
+    .single-vission-mission {
+        margin-top: 20px;
+    }
+    .vission-mission-cntn h2 {
+        font-size: 27px;
+    }
+    .vission-mission-cntn p {
+        font-size: 16px;
+    }
+    .vission-mission-btn a {
+        max-width: 320px;
+        border-radius: 20.364px;
+        font-size: 29.037px;
+    }
+    .donate-area-wrpper {
+        padding: 40px 0;
+    }
+    .donation-ammonut-wrpper h2 {
+        font-size: 30px;
+    }
+    .donation-sub-title h3 {
+        font-size: 20px;
+    }
+    .ammount-wrpper img {
+        margin-top: 0px;
+    }
+    .gift-desc p::before {
+        left: 21px;
+    }
+    .gift-desc p::after {
+        right: 28%;
+    }
+    .donate-gift-wrpper {
+        width: 100%;
+    }
+    .bank-details-area {
+        padding: 47px 40px 73px 40px;
+    }
+    .single-line span {
+        font-size: 14px;
+    }
+    .single-line img {
+        padding-bottom: 5px;
+        margin-left: 4px;
+    }
+    .bank-details-title h2 {
+        font-size: 26px;
+    }
+    .single-line span:last-child {
+        width: 174px;
+    }
+    .what-we-do-area {
+        padding: 30px 0;
+    }
+    .what-title {
+        padding-left: calc(100% - 720px / 2);
+    }
+    .what-title h2 {
+        font-size: 35px;
+    }
+    .what-title::after {
+        top: 20px;
+        left: 75%;
+    }
+    .we-do-subtilte h3 {
+        font-size: 15px;
+        padding-left: calc(100% - 720px / 2);
+    }
+    .post-image {
+        background: transparent;
+        text-align: center;
+    }
+    .post-image img {
+        transform: translateX(0);
+        max-width: 500px;
+    }
+    .single-post:nth-child(2) .post-image::before {
+        display: none;
+    }
+    .single-post:nth-child(2) .post-image img {
+        transform: translateX(0px);
+    }
+    .single-post:nth-child(2) .post-content {
+        text-align: left;
+    }
+    .post-content h3 {
+        font-size: 25px;
+    }
+    .post-content p {
+        font-size: 19px;
+    }
+
+    .single-post:first-child {
+        margin-top: 20px;
+    }
+    .single-post {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+     .imgages-title h1  {
+        font-size: 30px;
+    }
+
+    .videos-title h1 {
+        font-size: 30px;
+    }
+    .upcoming-title h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .aim-items h3 {
+        font-size: 30px;
+    }
+    .aim-items p {
+        font-size: 18px;
+    }
+    .aim-items h1 {
+        font-size: 30px;
+    }
+    .edu-items h1 {
+        font-size: 40px;
+    }
+    .edu-items h3 {
+        font-size: 25px;
+    }
+    .edu-items p {
+        font-size: 16px;
+    }
+
+    /* our-work */
+    .rt-ourwork-area {
+        padding-top: 90px;
+        padding-bottom: 155px;
+    }
+    .rt-ourwork-area .rt-ourwork-cnt h2 {
+        font-size: 46px;
+    }
+    .rt-ourwork-area .rt-ourwork-cnt h4 {
+        max-width: 420px;
+        font-size: 30px;
+    }
+    .rt-work-section .rt-work-area-box {
+        height: 330px;
+    }
+    .rt-work-section .rt-work-content {
+        margin-top: -370px;
+    }
+    .rt-work-section .rt-work-area-cnt h3 {
+        font-size: 27px;
+    }
+    .rt-work-section .rt-work-area-text {
+        padding-top: 28px;
+    }
+    .rt-work-section .rt-work-area-text h4 {
+        margin-right: 15px;
+        width: 52px;
+        height: 52px;
+        line-height: 52px;
+        font-size: 30px;
+    }
+    .rt-work-section .rt-work-area-text p {
+        font-size: 22px;
+    }
+    .rt-work-section .rt-work-area-text h6 {
+        padding-top: 15px;
+        font-size: 23px;
+    }
+    .rt-work-section {
+        padding-bottom: 150px;
+    }
+
+
+
+
+
+
+}
+
+/*
+===========================
+Small Screen - Mobile
+===========================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .header-area {
+        padding-top: 30px;
+    }
+    .navbar-brand img {
+        width: 130px;
+    }
+    .navbar-light .navbar-toggler-icon {
+        transform: scale(1.2);
+    }
+    .mobile-menu li a {
+        font-size: 20.533px;
+        margin: 5px 0;
+    }
+    .hero-area {
+        padding-top: 30px;
+    }
+    .hero-person {
+        text-align: center;
+    }
+    .hero-person img {
+        max-width: 500px;
+    }
+    .contribution-wepper,
+    .volunteer-wrpper {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 0;
+    }
+    .volunteer-wrpper {
+        padding-right: 0;
+        text-align: center;
+    }
+    .contribution-wepper h5, .volunteer-wrpper h5 {
+        font-size: 18.072px;
+    }
+    .contribution-wepper h3 {
+        font-size: 45px;
+    }
+    .volunteer-wrpper h3, .volunteer-wrpper h5 {
+        padding-left: 0px;
+    }
+    .volunteer-wrpper h3 {
+        font-size: 35.571px;
+    }
+    .part-change-area {
+        padding-top: 40px;
+        padding-bottom: 44px;
+    }
+    .part-change-title h2 {
+        font-size: 30px;
+    }
+    .part-change-title h5 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .part-content h3 {
+        font-size: 25.076px;
+    }
+    .part-content p {
+        font-size: 15.258px;
+    }
+    .part-img img {
+        width: 150px;
+    }
+    .single-part {
+        gap: 30px;
+    }
+    .single-part {
+        margin-top: 50px;
+    }
+    .part-border::before {
+        top: -17px;
+    }
+    .part-border::after {
+        bottom: -23px;
+    }
+    .future-vision-area {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .vision-title h2 {
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+    .vision-desc p,
+    .gift-desc p {
+        font-size: 18px;
+    }
+    .vision-desc p::before, .vision-desc p::after,
+    .gift-desc p::before, .gift-desc p::after {
+        width: 20px;
+        height: 20px;
+    }
+    .vision-desc p::before {
+        left: 10px;
+    }
+    .vision-desc p::after {
+        right: 17px;
+    }
+    .donate-btn a {
+        width: 290px;
+        font-size: 26.037px;
+        margin-top: 19.48px;
+        padding: 10px 0;
+    }
+    .join-us-title h1:first-child {
+        font-size: 45.279px;
+    }
+    .join-us-title h1:last-child {
+        font-size: 52.15px;
+    }
+
+    .contact-area {
+        padding: 50px 0;
+    }
+    .contact-title h2 {
+        font-size: 40px;
+    }
+    .contact-title h5 {
+        font-size: 20px;
+    }
+    .contact-form {
+        padding: 0 0;
+    }
+    .single-input-field label {
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+    .single-input-field input, .single-input-field textarea {
+        padding: 15px 15px;
+    }
+    .single-input-field:first-child {
+        margin-top: 25px;
+    }
+    .single-input-field {
+        margin-bottom: 25px;
+    }
+    .single-input-field input[type="submit"] {
+        padding: 14px 32px;
+        font-size: 30px;
+        width: 235px;
+        border-radius: 12px;
+    }
+    .single-input-field:nth-child(4) {
+        margin-bottom: 40px;
+    }
+    .footer-desc p {
+        font-size: 22px;
+    }
+    .person-info li span, .person-info li span a {
+        font-size: 23px;
+    }
+    .person-info {
+        margin-top: 30px;
+    }
+    .person-info li img {
+        width: 34px;
+    }
+    .person-info li {
+        gap: 10px;
+    }
+
+    .about-us-area {
+        padding: 30px 0;
+    }
+    .about-title h2 {
+        font-size: 42px;
+    }
+    .about-sub-titlw h3 {
+        font-size: 22px;
+    }
+    .about-desc-wrpper p {
+        text-align: justify;
+        font-size: 19px;
+        margin-top: 16px;
+    }
+    .vission-mission-area {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .vission-mission-title h2 {
+        font-size: 35px;
+    }
+    .single-vission-mission {
+        display: initial;
+        margin-top: 20px;
+    }
+    .vission-mission-img {
+        width: 30%;
+        margin: 25px auto;
+    }
+    .vission-mission-cntn {
+        width: 100%;
+    }
+    .vission-mission-cntn h2 {
+        font-size: 25px;
+    }
+    .vission-mission-cntn p {
+        font-size: 18px;
+    }
+    .vission-mission-btn a {
+        max-width: 325px;
+        border-radius: 13.364px;
+        font-size: 30.037px;
+        margin: auto;
+    }
+    .donate-area-wrpper {
+        padding: 20px 0;
+    }
+    .donation-ammonut-wrpper h2 {
+        font-size: 27px;
+    }
+    .donation-sub-title h3 {
+        font-size: 16px;
+    }
+    .ammount-wrpper img {
+        margin-top: -1px;
+    }
+    .gift-desc p::before {
+        left: -15px;
+    }
+    .gift-desc p::after {
+        right: 36%;
+    }
+    .donate-gift-wrpper {
+        width: 100%;
+    }
+    .single-line img {
+        display: none;
+    }
+    .bank-details-area {
+        padding: 25px 20px 25px 25px;
+        margin-top: 30px;
+    }
+    .bank-details-title h2 {
+        font-size: 25px;
+    }
+    .single-line span {
+        font-size: 17px;
+    }
+    .single-line {
+        justify-content: space-between !important;
+    }
+    .single-line span:last-child {
+        width: 220px;
+    }
+    .what-we-do-area {
+        padding: 30px 0;
+    }
+    .what-title {
+        padding-left: calc(100% - 540px / 2);
+    }
+    .what-title h2 {
+        font-size: 30px;
+    }
+    .what-title::after {
+        top: 18px;
+        left: 89%;
+    }
+    .we-do-subtilte h3 {
+        font-size: 22px;
+    }
+    .post-image {
+        background: transparent;
+        text-align: center;
+    }
+    .post-image img {
+        transform: translateX(0);
+        max-width: 500px;
+    }
+    .single-post:nth-child(2) .post-image::before {
+        display: none;
+    }
+    .single-post:nth-child(2) .post-image img {
+        transform: translateX(0px);
+    }
+    .single-post:nth-child(2) .post-content {
+        text-align: left;
+    }
+    .post-content h3 {
+        font-size: 25px;
+    }
+    .post-content p {
+        font-size: 19px;
+    }
+
+    .single-post:first-child {
+        margin-top: 20px;
+    }
+    .single-post {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .post-content {
+        padding-left: 0px;
+    }
+    .post-image {
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+     .imgages-title h1  {
+        font-size: 20px;
+    }
+
+     .videos-title h1 {
+        font-size: 20px;
+    }
+
+    .upcoming-title h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .aim-title h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .aim-items h3 {
+        font-size: 30px;
+    }
+    .aim-items p {
+        font-size: 18px;
+    }
+    .edu-items h1 {
+        font-size: 40px;
+    }
+    .edu-items h3 {
+        font-size: 25px;
+    }
+    .edu-items p {
+        font-size: 16px;
+    }
+    .aim-items h1 {
+        font-size: 50px;
+        margin: 10px 0px 10px;
+    }
+
+
+    /* our-work */
+    .rt-ourwork-area {
+        padding-top: 75px;
+        padding-bottom: 130px;
+    }
+    .rt-ourwork-area .rt-ourwork-cnt h2 {
+        font-size: 40px;
+    }
+    .rt-ourwork-area .rt-ourwork-cnt h4 {
+        max-width: 330px;
+        font-size: 26px;
+    }
+    .rt-work-section .rt-work-area-box {
+        height: 230px;
+    }
+    .rt-work-section .rt-work-content {
+        margin-top: -265px;
+    }
+    .rt-work-section .rt-work-area-cnt h3 {
+        font-size: 22px;
+        padding-top: 5px;
+    }
+    .rt-work-section .rt-work-area-text {
+        padding-top: 28px;
+    }
+    .rt-work-section .rt-work-area-text h4 {
+        margin-right: 10px;
+        width: 38px;
+        height: 38px;
+        line-height: 38px;
+        font-size: 26px;
+    }
+    .rt-work-section .rt-work-area-text p {
+        font-size: 18px;
+    }
+    .rt-work-section .rt-work-area-text h6 {
+        padding-top: 10px;
+        font-size: 19px;
+    }
+    .rt-work-section {
+        padding-bottom: 120px;
+    }
+
+
+
+
+
+
+}
+
+/*
+================================
+Xtra Small Screen - Small Mobile
+================================
+*/
+@media screen and (max-width: 575px) {
+    .header-area {
+        padding-top: 20px;
+    }
+    .navbar-brand img {
+        width: 100px;
+    }
+    .mobile-menu li a {
+        font-size: 23.533px;
+        margin: 5px 0;
+    }
+    .hero-area {
+        padding-top: 30px;
+    }
+    .hero-wrpper-title h1 {
+        font-size: 25px;
+    }
+    .hero-wrpper-desc p {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+    .contribution-wepper,
+    .volunteer-wrpper {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 0;
+    }
+    .contribution-wepper h5, .volunteer-wrpper h5 {
+        font-size: 17.072px;
+    }
+    .contribution-wepper h3 {
+        font-size: 40px;
+    }
+    .volunteer-wrpper h3, .volunteer-wrpper h5 {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .volunteer-wrpper h3 {
+        font-size: 26.571px;
+    }
+    .single-part {
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 30px;
+    }
+    .part-change-area {
+        padding-top: 35px;
+        padding-bottom: 40px;
+    }
+    .part-change-title h2 {
+        font-size: 22px;
+    }
+    .part-change-title h5 {
+        font-size: 18px;
+    }
+    .part-content, .part-img {
+        width: 100%;
+        text-align: center !important;
+    }
+    .part-content h3 {
+        text-align: center;
+        font-size: 35.076px;
+    }
+    .part-content p {
+        text-align: center;
+        font-size: 17.258px;
+        line-height: 1.1;
+    }
+    .part-img img {
+        width: 180px;
+    }
+    .part-border::before {
+        top: -14px;
+    }
+    .part-border::after {
+        bottom: -17px;
+    }
+    .future-vision-area {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .vision-title h2 {
+        font-size: 31px;
+        margin-bottom: 0px;
+    }
+    .vision-desc p,
+    .gift-desc p {
+        max-width: 400px;
+        font-size: 16px;
+        margin: auto;
+    }
+    .vision-desc p::before, .vision-desc p::after,
+    .gift-desc p::before, .gift-desc p::after {
+        width: 15px;
+        height: 15px;
+    }
+    .vision-desc p::before {
+        left: -16px;
+    }
+    .vision-desc p::after {
+        right: 85px;
+        bottom: 3px;
+    }
+    .donate-btn a {
+        width: 100%;
+        font-size: 35.037px;
+        margin-top: 25.48px;
+        padding: 10px 0;
+    }
+    .join-us-title {
+        position: initial;
+        top: 0;
+        transform: translate(0, 0);
+        padding: 30px 0;
+    }
+    .join-us-title h1:first-child {
+        font-size: 60.279px;
+        text-align: center;
+    }
+    .join-us-title h1:last-child {
+        font-size: 68.15px;
+        text-align: center;
+    }
+
+
+
+    .contact-area {
+        padding: 50px 0;
+    }
+    .contact-title h2 {
+        font-size: 40px;
+    }
+    .contact-title h5 {
+        font-size: 20px;
+    }
+    .contact-form {
+        padding: 0 0;
+    }
+    .single-input-field label {
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+    .single-input-field input, .single-input-field textarea {
+        padding: 15px 15px;
+        border-radius: 8px;
+    }
+    .single-input-field:first-child {
+        margin-top: 25px;
+    }
+    .single-input-field {
+        margin-bottom: 25px;
+    }
+    .single-input-field input[type="submit"] {
+        padding: 14px 32px;
+        font-size: 30px;
+        width: 235px;
+        border-radius: 12px;
+    }
+    .single-input-field:nth-child(4) {
+        margin-bottom: 40px;
+    }
+    .footer-area {
+        padding-top: 50px;
+    }
+    .footer-logo a img {
+        width: 140px;
+    }
+    .social-icons ul li a img {
+        width: 30px;
+    }
+    .footer-desc p {
+        font-size: 17px;
+    }
+    .person-info li img {
+        width: 25px;
+    }
+    .person-info li span, .person-info li span a {
+        font-size: 16px;
+    }
+
+    .about-us-area {
+        padding: 30px 0;
+    }
+    .about-title h2 {
+        font-size: 40px;
+    }
+    .about-sub-titlw h3 {
+        font-size: 22px;
+    }
+    .about-desc-wrpper p {
+        text-align: justify;
+        font-size: 16px;
+        margin-top: 16px;
+    }
+
+    .vission-mission-area {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .vission-mission-title h2 {
+        font-size: 33px;
+    }
+    .single-vission-mission {
+        display: initial;
+        margin-top: 20px;
+    }
+    .vission-mission-img {
+        width: 30%;
+        margin: 25px auto;
+    }
+    .vission-mission-cntn {
+        width: 100%;
+    }
+    .vission-mission-cntn h2 {
+        font-size: 25px;
+    }
+    .vission-mission-cntn p {
+        font-size: 18px;
+        text-align: justify;
+    }
+    .vission-mission-btn a {
+        max-width: 325px;
+        border-radius: 13.364px;
+        font-size: 30.037px;
+        margin: auto;
+    }
+    .person-info {
+        margin-top: 30px;
+    }
+
+    .single-part:nth-child(3)::before {
+        top: -13px;
+    }
+    .single-part:nth-child(3)::after {
+        bottom: -15px;
+    }
+    .donate-area-wrpper {
+        padding: 25px 0;
+    }
+    .donation-ammonut-wrpper h2 {
+        font-size: 29px;
+        margin-bottom: 5px;
+    }
+    .donation-sub-title h3 {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+    .ammount-wrpper img {
+        margin-top: 0px;
+    }
+    .gift-desc p::before {
+        left: -11px;
+    }
+    .gift-desc p::after {
+        right: 18%;
+    }
+    .donate-gift-wrpper {
+        width: 100%;
+    }
+    .bank-details-area {
+        padding: 15px;
+        margin-top: 30px;
+    }
+    .bank-details-title h2 {
+        font-size: 20px;
+    }
+    .single-line img {
+        display: none;
+    }
+    .single-line span {
+        font-size: 20px;
+    }
+    .single-line {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .what-we-do-area {
+        padding: 30px 0;
+    }
+    .what-title::after {
+        display: none;
+    }
+    .what-title h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .we-do-subtilte h3 {
+        font-size: 20px;
+        margin-top: 10px;
+        padding: 5px 0;
+    }
+    .post-image {
+        background: transparent;
+        text-align: center;
+    }
+    .post-image img {
+        transform: translateX(0);
+        max-width: 500px;
+    }
+    .single-post:nth-child(2) .post-image::before {
+        display: none;
+    }
+    .single-post:nth-child(2) .post-image img {
+        transform: translateX(0px);
+    }
+    .single-post:nth-child(2) .post-content {
+        text-align: left;
+    }
+    .post-content h3 {
+        font-size: 25px;
+    }
+    .post-content p {
+        font-size: 19px;
+    }
+
+    .single-post:first-child {
+        margin-top: 20px;
+    }
+    .single-post {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .post-content {
+        padding-left: 0px;
+    }
+
+    .post-image {
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .change-p:nth-child(4)::before {
+        top: -13px;
+    }
+    .change-p:nth-child(4)::after {
+        bottom: -15px;
+    }
+    .imgages-title h1  {
+        font-size: 20px;
+    }
+    .videos-title h1 {
+        font-size: 20px;
+    }
+    .upcoming-title h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .aim-title h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .aim-items h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .aim-items h3 {
+        font-size: 20px;
+    }
+    .aim-items p {
+        font-size: 14px;
+    }
+    .edu-items h1 {
+        font-size: 30px;
+    }
+    .edu-items h3 {
+        font-size: 25px;
+    }
+    .edu-items p {
+        font-size: 16px;
+    }
+
+    /* our-work */
+    .rt-ourwork-area {
+        padding-top: 50px;
+        padding-bottom: 75px;
+    }
+    .rt-ourwork-area .rt-ourwork-cnt h2 {
+        font-size: 32px;
+    }
+    .rt-ourwork-area .rt-ourwork-cnt h4 {
+        max-width: 280px;
+        font-size: 22px;
+    }
+    .rt-work-section .rt-work-area-box {
+        height: 155px;
+    }
+    .rt-work-section .rt-work-content {
+        margin-top: -180px;
+    }
+    .rt-work-section .rt-work-area-cnt h3 {
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    .rt-work-section .rt-work-area-text {
+        padding-top: 15px;
+    }
+    .rt-work-section .rt-work-area-text h4 {
+        margin-right: 10px;
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 22px;
+    }
+    .rt-work-section .rt-work-area-text p {
+        font-size: 15px;
+    }
+    .rt-work-section .rt-work-area-text h6 {
+        padding-top: 10px;
+        font-size: 16px;
+    }
+    .rt-work-section {
+        padding-bottom: 95px;
+    }
+
+
+    
+
+
+
+}

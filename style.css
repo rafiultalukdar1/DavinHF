@@ -1,0 +1,1372 @@
+/* Font Link Here */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*
+========================
+DEFAULT CSS 
+========================
+*/
+
+body {	
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;    
+	background: #fff;
+	color: #333333;	
+    margin: 0;
+    padding: 0;
+}
+
+/* font-family: "Archivo Black", sans-serif;*/
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --ArchivoBlack: "Archivo Black", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h5,
+h6, 
+p {
+    margin: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-webkit-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-moz-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+.scrolltotop {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #000; 
+    text-align: center; 
+    font-size: 22px;
+    color: #ffffff;
+    position: fixed;
+    right: 30px;
+    bottom: 25px;
+    display: none;
+    animation: lab_top_up 5s linear infinite;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;  
+    z-index: 1;    
+}
+
+.scrolltotop i {
+    color: #ffff;
+}
+
+@keyframes lab_top_up {
+    0% {
+        transform: translateY(-15px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-15px);
+    }
+}
+
+.pluse,
+.pluse2 {
+    position: relative;
+    top: 13px;
+    left: -8px;
+    z-index: -1;
+}
+
+.pluse::before,
+.pluse2::before {
+  width: 40px;
+  height: 40px;
+}
+
+.pluse::after,
+.pluse::before,
+.pluse2::after,
+.pluse2::before {
+  background: #000; 
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  display: block;
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+.pluse::after,
+.pluse2::after {
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  margin-left: -15px;
+  margin-top: -15px;
+}
+
+.pluse::before {
+    -webkit-animation: pluse_animate 2.5s infinite linear;
+    animation: pluse_animate 2.5s infinite linear;
+}
+
+.pluse2::before {
+  -webkit-animation: pluse_animate 3s infinite linear;
+  animation: pluse_animate 3s infinite linear; 
+}
+
+@keyframes pluse_animate {
+    0% {
+        opacity: 1;
+        -webkit-transform: translate(-50%, -50%) scale(0.3);
+        transform: translate(-50%, -50%) scale(0.3);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translate(-50%, -50%) scale(2);
+        transform: translate(-50%, -50%) scale(2);
+    }
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+.customcontainer {
+    max-width: 1300px;
+}
+
+
+/*==================
+HEADER AREA CSS HERE
+===================*/
+.header-area {
+    padding-top: 56px;
+}
+.navbar-brand img {
+    width: 150px;
+}
+
+.navbar,
+.navbar-brand {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.nav-item {
+    margin: 0 15.195px;
+}
+
+.nav-item:first-child {
+    margin-left: 0;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-item a {
+    color: #120F00 !important;
+    font-family: var(--ArchivoBlack);
+    font-size: 23px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+    border-bottom: 3px dashed #FFCD00;
+}
+
+.navbar-light .navbar-toggler {
+    border: none !important;
+}
+
+.offcanvas-header a img {
+    width: 120px;
+}
+
+.mobile-menu li {
+    text-align: center;
+}
+
+.mobile-menu li a {
+    color: #120F00;
+    font-family: var(--ArchivoBlack);
+    font-size: 27.533px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.btn-close:focus {
+	outline: 0;
+	box-shadow: 0 0 0 0;
+	opacity: 1;
+}
+
+
+/*==================
+HERO AREA CSS HERE
+===================*/
+.hero-person img {
+    width: 100%;
+}
+
+.hero-wrpper-title h1 {
+    color: #120F00;
+    font-family: var(--ArchivoBlack);
+    font-size: 40.248px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.hero-wrpper-title h1 span {
+    background-color: #FFCE09;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.hero-wrpper-desc p {
+    color: #120F00;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+/*========================
+CONTRIBUTION AREA CSS HERE
+=========================*/
+.contribution-area {
+    background-color: #FFCD00;
+}
+.contribution-wepper {
+    padding-top: 42px;
+    padding-bottom: 42px;
+    padding-left: calc(100% - 1320px / 2);
+    background-color: #000000;
+    text-align: center;
+}
+
+.volunteer-wrpper {
+    padding-top: 42px;
+    padding-bottom: 42px;
+    padding-right: calc(100% - 1320px / 2);
+    background-color: #FFCE09;
+    /* text-align: center; */
+}
+
+.contribution-wepper h5,
+.volunteer-wrpper h5 {    
+    font-size: 23.072px;
+    font-weight: 400;
+}
+
+.contribution-wepper h5 {
+    color: #FFF;
+}
+
+.volunteer-wrpper h5 {
+    color: #000;
+}
+
+
+.contribution-wepper h3 {
+    color: #FFCD00;
+    font-family: var(--ArchivoBlack);
+    font-size: 70px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.volunteer-wrpper h3 {
+    color: #000;
+    font-family: var(--ArchivoBlack);
+    font-size: 45.571px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.volunteer-wrpper h3,
+.volunteer-wrpper h5 {
+    padding-left: 50px;
+}
+
+
+/*========================
+WHAT WE DO AREA CSS HERE
+=========================*/
+.what-we-do-area {
+    padding: 100px 0;
+}
+
+.we-do-wrpper {
+    overflow: hidden;
+}
+
+.what-title {
+    padding-left: calc(100% - 1320px / 2);
+    position: relative;
+}
+
+.what-title h2 {
+    color: #000;
+    font-family: var(--ArchivoBlack);
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.what-title::after {
+    content: "";
+    display: block;
+    clear: both;
+    position: absolute;
+    width: 200%;
+    height: 5px;
+    background-color: #000;
+    top: 35px;
+    left: 77%;
+}
+
+
+.we-do-subtilte h3 {
+    color: #120F00;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: calc(100% - 1320px / 2);
+    background: linear-gradient(to left, #FFFCED 0%,#FFD013 93%);
+}
+
+.single-post{
+    margin-top: 50px;
+}
+
+.post-image {
+    width: 100%;
+    height: 365px;
+    border-radius: 50.212px;
+    background: #FFCD00;
+}
+
+.post-image img {
+    transform: translateX(25px);
+}
+
+.post-content {
+    padding-left: 50px;
+}
+
+.post-content h3 {
+    color: #120F00;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.post-content p {
+	color: #120F00;
+	font-size: 31px;
+	font-weight: 400;
+	padding-right: 113px;
+}
+
+.single-post:nth-child(2) .post-image img {
+    transform: translateX(-25px);
+
+}
+
+.single-post:nth-child(2) .post-image {
+    position: relative;
+}
+
+.single-post:nth-child(2) .post-image::before {
+    content: "";
+    display: block;
+    clear: both;
+    position: absolute;
+    background: url(images/icon/post-connector.svg) no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 883px;
+    height: 815px;
+    left: -170%;
+    top: -46%;
+    z-index: -6666;
+}
+
+.single-post:nth-child(2) .post-content {
+    text-align: right;
+    padding-right: 50px;
+}
+
+.single-post:nth-child(2) .post-content p {
+    padding-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========================
+PART OF THE CHANGE CSS HERE
+============================*/
+.part-change-area {
+    padding-top: 84px;
+    padding-bottom: 100px;
+    background-color: #FFCD00;
+}
+
+.part-change-title h2 {
+    color: #000;
+    text-align: center;
+    font-family: var(--ArchivoBlack);
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.part-change-title h5 {
+    color: #120F00;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: linear-gradient(to left,#FFCD00 43%, #fff 50%, #FFCD00 60%);
+}
+
+.part-content h3 {
+    color: #120F00;
+    text-align: right;
+    font-size: 50.076px;
+    font-weight: 700;
+}
+
+.part-content p {
+    color: #120F00;
+    text-align: right;
+    font-size: 33.258px;
+    font-weight: 400;
+}
+
+.single-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.part-content,
+.part-img {
+    width: 35%;
+}
+
+.part-img img {
+    width: 250px;
+}
+
+.single-part {
+    margin-top: 84px;
+}
+
+.single-part {
+    position: relative;
+}
+
+.part-border::after,
+.part-border::before {
+    content: "";
+    display: block;
+    clear: both;
+    position: absolute;
+    background: url(images/icon/boder-s.svg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 5px;
+}
+
+.part-border::before {
+    top: -35px;
+}
+
+.part-border::after {
+    bottom: -40px;
+}
+
+
+
+/*========================
+VISION FOR FUTURE CSS HERE
+=========================*/
+.future-vision-area {
+    padding-top: 126px;
+    padding-bottom: 150px;
+}
+
+.vision-title h2 {
+    color: #000;
+    font-family: var(--ArchivoBlack);
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.vision-desc p,
+.gift-desc p {
+    color: #120F00;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    position: relative;
+}
+
+.vision-desc p::before,
+.vision-desc p::after,
+.gift-desc p::before,
+.gift-desc p::after {
+    content: "";
+    display: block;
+    clear: both;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+.vision-desc p::before {
+    background: url(images/icon/vision-before.svg) no-repeat;
+    background-size: contain;
+    background-position: left;
+    left: -37px;
+}
+
+.vision-desc p::after {
+    background: url(images/icon/vision-after.svg) no-repeat;
+    background-size: contain;
+    background-position: right;
+    right: 106px;
+    bottom: 0px;
+}
+
+.donate-btn a {
+    width: 628px;
+    border-radius: 58.364px;
+    background: #FFCD00;
+    color: #000;
+    text-align: center;
+    font-family: var(--ArchivoBlack);
+    font-size: 70.037px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: auto;
+    display: block;
+    margin-top: 60.48px;
+}
+
+
+
+/*========================
+JOIN US TODAY CSS HERE
+=========================*/
+.join-us-area {
+    background-color: #FFCD00;
+}
+
+.join-us-img img {
+    width: 100%;
+}
+
+.join-us-title h1 {
+    color: #FFF;
+    font-family: var(--ArchivoBlack);
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 0.9;
+}
+
+.join-us-title h1:first-child {
+    font-size: 176.279px;
+}
+
+.join-us-title h1:last-child {
+    font-size: 200.15px;
+}
+
+.join-us-area {
+    position: relative;
+}
+
+.join-us-title {
+	position: absolute;
+	top: 50%;
+    transform: translate(-14.5%, -50%);    
+}
+
+
+/*========================
+CONTACT US CSS HERE
+=========================*/
+.contact-area {
+    padding: 100px 0;
+}
+
+.contact-title h2 {
+    color: #000;
+    text-align: center;
+    font-family: var(--ArchivoBlack);
+    font-size: 80px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.contact-title h5 {
+    color: #120F00;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.contact-form {
+	padding: 0 175px;
+}
+
+.single-input-field:first-child {
+    margin-top: 29px;
+}
+
+.single-input-field {
+    margin-bottom: 42px;
+}
+
+.single-input-field label {
+    display: block;
+    color: #120F00;
+    font-size: 40px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.single-input-field input,
+.single-input-field textarea {
+    border-radius: 20px;
+    border: 2px solid #000;
+    background: #FFF4C8;
+    padding: 30px 15px;
+    width: 100%;
+}
+
+.single-input-field textarea {
+    resize: none;
+}
+
+.single-input-field input:focus,
+.single-input-field textarea:focus {
+    outline: none;
+}
+
+.single-input-field:nth-child(4) {
+    margin-bottom: 52px;
+}
+
+.single-input-field input[type = submit] {
+    padding: 20px 100px;
+    max-width: 589px;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    border-radius: 20px;
+    background: #FFCD00;
+    color: #000;
+    text-align: center;
+    font-family: var(--ArchivoBlack);
+    font-size: 84px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: .9;
+    border: none;
+}
+
+
+/*========================
+FOOTER AREA CSS HERE
+=========================*/
+.footer-area {
+    padding-top: 85px;
+    padding-bottom: 100px;
+    background-color: #1F1F1F;
+}
+
+.footer-logo a img {
+    width: 200px;
+}
+
+.footer-desc p {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 16px 0;
+}
+
+.social-icons ul li {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.social-icons ul li:first-child {
+    margin-left: 0;
+}
+
+.social-icons ul li:last-child {
+    margin-right: 0;
+}
+
+.social-icons ul li a img {
+    width: 40px;
+}
+
+.person-info li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.person-info li:nth-child(2) {
+    margin: 19px 0;
+}
+
+.person-info li img {
+    width: 40px;
+}
+
+.person-info li span,
+.person-info li span a {
+    color: #FFF;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+
+
+/*==================
+ABOUT PAGE CSS START
+===================*/
+.about-us-area {
+    padding: 100px 0;
+}
+
+.about-title h2 {
+    color: #000;
+    text-align: center;
+    font-family: var(--ArchivoBlack);
+    font-size: 80px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.about-sub-titlw {
+	text-align: center;
+}
+
+.about-sub-titlw h3 {
+    color: #120F00;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline;
+    background: linear-gradient(to left, #FFFCED 0%,#FFD013 50%,#FFFCED );
+}
+
+.about-desc-wrpper p {
+    color: #120F00;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 34px;
+}
+
+
+/*=========================
+VISION AND MISSION CSS HERE
+==========================*/
+.vission-mission-area {
+    padding-top: 87px;
+    padding-bottom: 100px;
+    background-color: #FFCD00;
+}
+
+.vission-mission-title h2 {
+    color: #000;
+    text-align: center;
+    font-family: var(--ArchivoBlack);
+    font-size: 65px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.single-vission-mission {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 85px;
+}
+
+.vission-mission-img {
+    width: 30%;
+    text-align: center;
+}
+
+.vission-mission-img img {
+    max-width: 300px;
+}
+
+.vission-mission-cntn {
+    width: 70%;
+}
+
+.vission-mission-cntn h2 {
+    color: #120F00;
+    font-size: 43px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.vission-mission-cntn p {
+    color: #120F00;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.vission-mission-btn a {
+    max-width: 520px;
+    padding: 8px 40px 9px 56px;
+    border-radius: 58.364px;
+    background: #FFF;
+    color: #000;
+    text-align: center;
+    font-family: var(--ArchivoBlack);
+    font-size: 53.037px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+/*============================
+CHANGE THE PART PAGE CSS START
+==============================*/
+#change-part {
+    background-color: #fff;
+}
+
+#change-part-subtitle {
+    text-align: center;
+}
+
+#change-part-subtitle h5 {
+    display: inline;
+    background: linear-gradient(to left, #FFFCED 0%,#FFD013 55%,#FFFCED );
+}
+
+.qr-code-wrpper {
+    margin-top: 30px;
+}
+
+.scan-img {
+    text-align: center;
+}
+
+.scan-img img {
+    max-width: 300px;
+}
+
+
+
+
+
+
+#contact-area-bg {
+    background-color: #FFCD00;
+}
+
+.change-p:nth-child(4)::before,
+.change-p:nth-child(4)::after {
+    content: "";
+    display: block;
+    clear: both;
+    position: absolute;
+    border-bottom: 3px dashed #FFCD00;
+    width: 100%;
+    height: 3px;
+}
+
+.change-p:nth-child(4)::before {
+    top: -30px;
+}
+
+.change-p:nth-child(4)::after {
+    bottom: -35px;
+}
+
+#cp-submit input[type=submit] {
+    background-color: #FFFFFF;
+}
+
+
+/*============================
+DONATION PAGE CSS START
+==============================*/
+.donate-area-wrpper {
+    padding: 100px 0;
+}
+
+.donation-ammonut-wrpper h2 {
+    color: #000;
+    text-align: center;
+    font-family: var(--ArchivoBlack);
+    font-size: 55px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.donation-sub-title,
+.ammount-wrpper {
+    text-align: center;
+}
+
+.donation-sub-title h3 {
+    color: #120F00;
+    text-align: center;
+    font-size: 33px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline;
+    background: linear-gradient(to left, #FFFCED 0%,#FFD013 55%,#FFFCED );
+}
+
+.ammount-wrpper img {
+    max-width: 900px;
+    margin: auto;
+    margin-top: 3px;
+}
+
+.gift-desc p::before {
+    background: url(images/icon/vision-before.svg) no-repeat;
+    background-size: contain;
+    background-position: left;
+    left: -26px;
+}
+
+.gift-desc p::after {
+    background: url(images/icon/vision-after.svg) no-repeat;
+    background-size: contain;
+    background-position: right;
+    right: 11%;
+    bottom: 0px;
+}
+.donate-gift-wrpper {
+	width: 80%;
+	margin: auto;
+}
+
+.gift-desc p {
+    font-size: 33px;
+}
+
+/*====================
+BANK DETAILS CSS START
+=====================*/
+.bank-details-area {
+    padding: 47px 87px 73px 91px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    margin-top: 72px;
+}
+
+.bank-details-title h2 {
+    color: #120F00;
+    text-align: center;
+    font-size: 39px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.single-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 8px;
+}
+
+.single-line span:nth-child(2) {
+    border-bottom: 2px dashed #FFCD00;
+    display: block;
+}
+
+.single-line span {
+    color: #120F00;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.single-line span:last-child {
+    width: 323px;
+}
+
+.single-line img {
+	width: 51%;
+    padding-bottom: 9px;
+    margin-left: 9px;
+}
+
+.single-line:last-child {
+    align-items: flex-start;
+}
+.single-line span:last-child {
+    justify-content: flex-end;
+}
+
+.single-line:last-child img {
+    margin-top: 10px;
+}
+
+/*img-gallery  area start*/
+
+
+.images-area {
+    /*! padding: 70px 0px 0px; */
+    padding: 4rem 0rem 17rem;
+}
+
+
+.imgages-title h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+/*img-gallery  area end*/
+
+/*video-gallery area start*/
+
+.video-area {
+    padding: 4rem 0rem 17rem;
+}
+
+.videos-title h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+/*.video-gallery area end*/
+/*upcoming AREA START*/
+
+.upcoming-area {
+    padding: 4rem 0rem 17rem;
+}
+
+.upcoming-title h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+}
+/*upcoming AREA end*/
+
+/*our aim area start*/
+
+.ouraim-area {
+    padding: 50px 0px 70px;
+}
+
+.aim-title h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.aim-title {
+    margin-bottom: 4rem;
+}
+
+.aim-items h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.aim-items h3 {
+    font-size: 36px;
+    font-weight: 600;
+    background: #FFCD00;
+    margin-bottom: 10px;
+}
+
+.aim-items p {
+    color: #2F2D1F;
+    font-size: 31px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+
+.aim-para p {
+    color: #2F2D1F;
+    font-size: 31px;
+    font-weight: 500;
+}
+
+.education-area {
+    padding: 80px 0px 80px;
+    background: #FFCD00;
+}
+
+.edu-items h1 {
+      font-family: "Archivo Black", sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.edu-items h3 {
+    font-size: 36px;
+    font-weight: 600;
+    background: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.edu-items p {
+    color: #2F2D1F;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    
+}
+
+/*child-labour area start */
+
+.child-area {
+    padding: 70px 0px 40px;
+}
+
+/*self-employment area start*/
+
+
+.self-area {
+    padding: 80px 0px 80px;
+  background: #FFCD00;
+}
+
+
+/*hospital and research area start */
+
+.hospital-area {
+    padding: 70px 0px 40px;
+}
+
+
+/*old age area start*/
+
+.old-area {
+    padding: 80px 0px 80px;
+  background: #FFCD00;
+}
+
+/* arasram area start*/
+
+.arasram-area {
+    padding: 70px 0px 40px;
+}
+
+/*lawyer-area start*/
+
+.lawyer-area {
+    padding: 80px 0px 80px;
+    background: #FFCD00;
+}
+
+/* last-item area start*/
+
+.higher-edu {
+    padding: 70px 0px 40px;
+}
+
+
+
+
+
+
+
+
+
+/*
+====================================
+our-work-page
+====================================
+*/
+
+.rt-ourwork-area {
+    padding-top: 150px;
+    padding-bottom: 203px;
+}
+
+.rt-ourwork-area .rt-ourwork-cnt h2 {
+    color: #000000;
+    font-size: 80px;
+    font-weight: 400;
+    font-family: var(--ArchivoBlack);
+    text-transform: uppercase;
+}
+
+.rt-ourwork-area .rt-ourwork-cnt h4 {
+    background: linear-gradient(to left, #FFFCED 0%,#FFD013 55%,#FFFCED );
+    max-width: 850px;
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+
+/* ourwork-area */
+
+/* work-area-items */
+
+.rt-work-section {
+    padding-bottom: 363px;
+}
+
+.rt-work-section .rt-work-area-box {
+    width: 100%;
+    height: 614px;
+    background: #FFCD00;
+}
+
+.rt-work-section .rt-work-content {
+   margin-top: -707px;
+}
+
+.rt-work-section .rt-work-area-cnt img {
+    max-width: 90%;
+}
+
+.rt-work-section .rt-work-area-cnt h3 {
+    font-size: 50px;
+    font-weight: 400;
+    color: #000000;
+    font-family: var(--ArchivoBlack);
+    text-transform: uppercase;
+}
+
+.rt-work-section .rt-work-area-text {
+    padding-top: 42px;
+}
+
+.rt-work-section .rt-work-area-text h4 {
+    margin-right: 25px;
+    background: #FFCD00;
+    width: 86px;
+    height: 86px;
+    line-height: 86px;
+    border-radius: 50%;
+    text-align: center;
+    color: #000000;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: var(--ArchivoBlack);
+}
+
+.rt-work-section .rt-work-area-text p {
+    color: #120F00;
+    font-size: 38px;
+}
+
+.rt-work-section .rt-work-area-text p span {
+    font-weight: 600;
+}
+
+.rt-work-section .rt-work-area-text h6 {
+    padding-top: 32px;
+    font-size: 38px;
+    font-weight: 500;
+    color: #120F00;
+}
+
+.rt-our-form-area {
+    padding-top: 90px;
+}
+
+
+
