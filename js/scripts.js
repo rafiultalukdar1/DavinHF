@@ -15,13 +15,6 @@
 				jQuery('.scrolltotop').fadeOut();
 			}
 		});
-
-
-		
-
-				
-		
-		
 		
 		
 		
