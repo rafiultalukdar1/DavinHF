@@ -1,7 +1,7 @@
 /* Font Link Here */
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body {	
+body {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;    
@@ -10,7 +10,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 
 * {
     box-sizing: border-box;
@@ -57,9 +56,9 @@ ul {
 }
 
 .scrolltotop {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    width: 98px;
+    height: 98px;
+    line-height: 98px;
     border-radius: 50%;
     background: #000; 
     text-align: center; 
@@ -78,6 +77,7 @@ ul {
 
 .scrolltotop i {
     color: #ffff;
+    font-size: 16px;
 }
 
 @keyframes lab_top_up {
@@ -263,11 +263,8 @@ HERO AREA CSS HERE
     font-weight: 400;
 }
 
+/* CONTRIBUTION AREA CSS HERE */
 
-
-/*========================
-CONTRIBUTION AREA CSS HERE
-=========================*/
 .contribution-area {
     background-color: #FFCD00;
 }
@@ -284,7 +281,6 @@ CONTRIBUTION AREA CSS HERE
     padding-bottom: 42px;
     padding-right: calc(100% - 1320px / 2);
     background-color: #FFCE09;
-    /* text-align: center; */
 }
 
 .contribution-wepper h5,
@@ -436,11 +432,8 @@ WHAT WE DO AREA CSS HERE
     padding-right: 0;
 }
 
+/* PART OF THE CHANGE CSS HERE */
 
-
-/*==========================
-PART OF THE CHANGE CSS HERE
-============================*/
 .part-change-area {
     padding-top: 84px;
     padding-bottom: 100px;
