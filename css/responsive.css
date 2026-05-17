@@ -15,10 +15,6 @@ Large Screen - Others
     }
 
 
-
-
-
-
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -132,8 +128,6 @@ Large Screen - Others
         width: 800px;
         height: 800px;
     }
-
-    /* our-work */
     .rt-ourwork-area .rt-ourwork-cnt h2 {
         font-size: 64px;
     }
@@ -434,8 +428,6 @@ Medium Screen - Others
     .edu-items h1 {
         font-size: 50px;
     }
-
-    /* our-work */
     .rt-ourwork-area {
         padding-top: 110px;
         padding-bottom: 155px;
@@ -1163,9 +1155,6 @@ Small Screen - Mobile
         font-size: 50px;
         margin: 10px 0px 10px;
     }
-
-
-    /* our-work */
     .rt-ourwork-area {
         padding-top: 75px;
         padding-bottom: 130px;
@@ -1449,7 +1438,6 @@ Xtra Small Screen - Small Mobile
     .person-info {
         margin-top: 30px;
     }
-
     .single-part:nth-child(3)::before {
         top: -13px;
     }
@@ -1546,7 +1534,6 @@ Xtra Small Screen - Small Mobile
     .post-content {
         padding-left: 0px;
     }
-
     .post-image {
         height: auto;
         margin-bottom: 10px;
@@ -1591,8 +1578,6 @@ Xtra Small Screen - Small Mobile
     .edu-items p {
         font-size: 16px;
     }
-
-    /* our-work */
     .rt-ourwork-area {
         padding-top: 50px;
         padding-bottom: 75px;
