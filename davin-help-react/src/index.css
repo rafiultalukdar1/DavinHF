@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-poppins text-[16px] font-normal bg-white text-[#333333] m-0 p-0;
+  }
+  h1, h2, h3, h5, h6, p {
+    @apply m-0;
+  }
+  a {
+    @apply no-underline inline-block;
+  }
+  ul {
+    @apply list-none p-0 m-0;
+  }
+  img {
+    @apply w-full block;
+  }
+  ::selection {
+    color: white;
+    background: #ff7675;
+  }
+}
+
+@keyframes lab_top_up {
+  0% { transform: translateY(-15px); }
+  50% { transform: translateY(0px); }
+  100% { transform: translateY(-15px); }
+}
+
+@keyframes pluse_animate {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(0.3);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(2);
+  }
+}
+
+.scrolltotop {
+  animation: lab_top_up 5s linear infinite;
+}
+
+.pulse-ring::before,
+.pulse-ring::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: #000;
+  border-radius: 50%;
+  left: 0;
+  top: 2px;
+}
+
+.pulse-ring::before {
+  width: 40px;
+  height: 40px;
+  animation: pluse_animate 2.5s infinite linear;
+}
+
+.pulse-ring::after {
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  margin-left: -15px;
+  margin-top: -15px;
+  animation: pluse_animate 3s infinite linear;
+}
